@@ -1,5 +1,5 @@
 Le texte du challenge est le suivant :\
-`This party house is known for its 3AM outings, but you've gotta work for the location if you want to come! Enter the GPS coordinates of the location!`
+> This party house is known for its 3AM outings, but you've gotta work for the location if you want to come! Enter the GPS coordinates of the location!
 
 On nous donne un fichier HEIC (image Apple donc) représentant la façade d'une maison : [Lien de l'image](https://github.com/Nerumir/writeups/blob/9706837ebbe1ab822a354c292e7667347384d7c3/OSInt/data/IMG_4048.HEIC)
 
