@@ -19,7 +19,8 @@ En premier temps, j'ouvre le fichier `.pcap` avec Wireshark. D'après la consign
   - **Client :** `172.19.0.1`
   - **Serveur :** `172.19.0.2`
 
-Je filtre encore pour analyser le trafic pertinent entre les deux ips : ip.addr == 172.19.0.1 && ip.addr == 172.19.0.2
+Je filtre encore pour analyser le trafic pertinent entre les deux ips : **ip.addr == 172.19.0.1 && ip.addr == 172.19.0.2**
+
 Je prends le troisième paquet et j'analyse le flux UDP (`Clic Droit > Follow > UDP Stream`). Le contenu en mode **ASCII** est :
 
 --> Voici le contenu 
