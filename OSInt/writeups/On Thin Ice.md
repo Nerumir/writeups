@@ -13,4 +13,4 @@ Ce titre déchiffré donne `Ӧкмысӧд воськов. Мездлун.`, que
 
 Une recherche Google permet de comprendre qu'il s'agit d'une étape [d'une mission de Call of Duty: Black Ops](https://callofduty.fandom.com/wiki/Vorkuta_(level)#Walkthrough). Cette mission se déroule dans la ville de Vorkuta, dans la république des Komis.
 
-Une recherche Maps nous permet de trouver cette ville, ainsi que sa patinoire, et [un commentaire](https://maps.app.goo.gl/LBj1bdenR5RjRoMBA) comportant le flag, à savoir `swampCTF{ForUM4sOnN0tForM3}`.
+Une recherche Maps nous permet de trouver cette ville, ainsi que sa patinoire, et [un commentaire](https://maps.app.goo.gl/LBj1bdenR5RjRoMBA) comportant le flag de la forme `swampCTF{xxx}`.
