@@ -19,7 +19,7 @@ Pour commencer, j'ouvre le fichier avec **Wireshark**. Je me doute que le protoc
 ![Compte](data/account.png)
 
 > [!NOTE]
-> Mon but va être de retrouver le mot de passe de "hackbackzip", je fais quelques recherches et je déduis qu'il va falloir reconstruire le hash Net-NTLMv2 de cet utilisateur puis le crack. Je tourne vers quelques outils pour m'aider.
+> Mon but va être de retrouver le mot de passe de "hackbackzip", je fais quelques recherches et je déduis qu'il va falloir reconstruire le hash Net-NTLMv2 de cet utilisateur puis le crack. Je tombe sur cette vidéo qui explique comment faire  https://www.youtube.com/watch?v=lhhlgoMjM7o ( How to extract NTLM Hashes from Wireshark Captures for cracking with Hashcat ).
 
 Voici ma première reconstruction manuelle :
 
