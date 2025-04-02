@@ -5,7 +5,7 @@ Nous avons un fichier `.pcap` et une consigne
 
 --> J'ouvre le fichier gpnightmare.pcap avec wireshark, on voit des échanges sur différents protocoles.
 
-![Filter NTLMSSP](data/échanges.png)
+![echanges](data/échanges.png)
 
 --> En consultant à nouveau la consigne, j'essaie de repérer sur quel protocole d'authentification les échanges ont eu lieu. 
 
