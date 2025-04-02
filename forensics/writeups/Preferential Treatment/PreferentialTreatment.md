@@ -9,8 +9,7 @@ Nous avons un fichier `.pcap` et une consigne
 
 > [!NOTE]
 > En consultant à nouveau la consigne, j'essaie de repérer sur quel **protocole d'authentification** les échanges ont eu lieu. 
-
---> Je filtre sur Wireshark avec **ntlmssp** (NT LAN Manager Security Support Provider), qui est le protocole d'authentification utilisé principalement dans les environnements Windows.
+> Je filtre sur Wireshark avec **ntlmssp** (NT LAN Manager Security Support Provider), qui est le protocole d'authentification utilisé principalement dans les environnements Windows.
 
 ![Filter NTLMSSP](data/filter.png)
 
@@ -20,7 +19,7 @@ Je fais un clic droit sur le paquet concerné et sélectionne Follow > TCP Strea
 
 ![XML Stream](data/stream.png)
 
---> En explorant cette requête je trouves un formulaire **xml** qui renseigne un "cpassword"
+En explorant cette requête je trouves un formulaire **xml** qui renseigne un "cpassword"
 
 ```yml
 cpassword="dAw7VQvfj9rs53A8t4PudTVf85Ca5cmC1Xjx6TpI/cS8WD4D8DXbKiWIZslihdJw3Rf+ijboX7FgLW7pF0K6x7dfhQ8gxLq34ENGjN8eTOI="
