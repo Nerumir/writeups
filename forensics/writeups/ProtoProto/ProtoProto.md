@@ -63,6 +63,7 @@ On fait apparaître une chaîne hexadécimale :
 ```
 
 Cela signifie que le client demande au serveur le fichier `flag.txt` à l'aide de cette chaîne hexadécimale, et le serveur répond avec le contenu du fichier.
+
 --> Il faut donc reproduire ce scénario sur le serveur pour récupérer le vrai flag.
 
 Voici le script qui permet de récupérer le flag sur le vrai serveur :
