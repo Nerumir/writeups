@@ -7,7 +7,8 @@ Nous avons un fichier `.pcap` et une consigne
 
 ![echanges](data/échanges.png)
 
---> En consultant à nouveau la consigne, j'essaie de repérer sur quel protocole d'authentification les échanges ont eu lieu. 
+> [!NOTE]
+> En consultant à nouveau la consigne, j'essaie de repérer sur quel protocole d'authentification les échanges ont eu lieu. 
 
 --> Je filtre sur Wireshark avec ntlmssp (NT LAN Manager Security Support Provider), qui est le protocole d'authentification utilisé principalement dans les environnements Windows.
 
@@ -15,7 +16,7 @@ Nous avons un fichier `.pcap` et une consigne
 
 --> Je trouve trois paquets ; le troisième paquet est la requête de Session Setup AndX, qui est la réponse au challenge et permet de s'authentifier. (Pour se renseigner sur le protocole NTLM ==> https://www.crowdstrike.com/fr-fr/cybersecurity-101/identity-protection/windows-ntlm/)
 
-// Clic Droit > Follow > TCP Stream
+Je Follow le stream TCP de ce paquet : Clic Droit > Follow > TCP Stream
 
 ![XML Stream](data/stream.png)
 
