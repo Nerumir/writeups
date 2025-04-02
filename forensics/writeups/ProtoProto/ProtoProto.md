@@ -10,7 +10,7 @@ Nous avons un fichier `.pcap`, une consigne et l'adresse d'un serveur :
 En premier temps, j'ouvre le fichier `.pcap` avec Wireshark. D'après la consigne, je déduis que le client et le serveur communiquent via un protocole inconnu. Il faut également comprendre le fonctionnement de ce serveur et sûrement reproduire le même procédé sur le serveur donné.
 
 > [!NOTE]
-> En explorant les packets du pcap je remarque le protocole udp qui peut être intéressant dans notre cas, je filtre donc les packets avec :  udp
+> En explorant les packets du pcap je remarque que le protocole udp qui peut être intéressant, je filtre donc les packets avec :  udp
 
 ![Analyse des paquets UDP](data/udp.png)
 
