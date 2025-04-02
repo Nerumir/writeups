@@ -12,11 +12,11 @@ Pour commencer, j'ouvre le fichier avec **Wireshark**. Je me doute que le protoc
 
 --> Je filtre avec smb2.cmd == 1 && smb2.nt_status == 0x00000000 pour trouver l'opération de session setup qui a réussi.
 
-![Filtrage](forensics/writeups/MuddyWater/data/filtre.png)
+![Filtrage](/data/filtre.png)
 
 --> Un packet correspond c'est la trame 72074, j'observe que le user qui a réussi à se connecter est "hackbackzip"
 
-![Compte](forensics/writeups/MuddyWater/data/account.png)
+![Compte](/data/account.png)
 
 > [!NOTE]
 > Mon but va être de retrouver le mot de passe de "hackbackzip", je fais quelques recherches et je déduis qu'il va falloir reconstruire le hash Net-NTLMv2 de cet utilisateur puis le crack. Je tourne vers quelques outils pour m'aider.
@@ -39,7 +39,7 @@ Hash : hackbackzip::DESKTOP-0TNOE4V:d102444d56e078f4:eb1b0afc1eef819c1dccd514c96
 
 --> J'essaye de cracker ce hash mais il est invalide, en effet j'avais négligé le bon format du flag qui est User**::**Domain**:**Server:HMAC-MD5(Challenge)**:**NTLMV2Response(without HMAC)
 
-![Format](forensics/writeups/MuddyWater/data/format.png)
+![Format](data/format.png)
 
 > [!IMPORTANT]
 > Mon erreur est le fait que j'ai inclus le HMAC-MD5 dans la réponse NTLMV2
@@ -54,7 +54,7 @@ Bon format de Hash :
 
 --> Je crack le hash avec cette commande : hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt
 
-![Hashcat](forensics/writeups/MuddyWater/data/hash.png)
+![Hashcat](/data/hash.png)
   
 
 J'obtiens le mot de passe "pike*****"
