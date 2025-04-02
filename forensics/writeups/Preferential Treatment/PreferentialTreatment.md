@@ -14,7 +14,7 @@ Nous avons un fichier `.pcap` et une consigne
 
 ![Filter NTLMSSP](data/filter.png)
 
---> Je trouve trois paquets ; le troisième paquet est la requête de **Session Setup AndX**, qui est la réponse au challenge et permet de s'authentifier. (Pour se renseigner sur le protocole NTLM ==> https://www.crowdstrike.com/fr-fr/cybersecurity-101/identity-protection/windows-ntlm/)
+--> Je trouve trois paquets ; le troisième paquet est la requête de **Session Setup AndX**, qui est la réponse au challenge et permet de s'authentifier. Pour se renseigner sur le protocole NTLM ==> [Présentation du protocole](https://www.crowdstrike.com/fr-fr/cybersecurity-101/identity-protection/windows-ntlm/)
 
 Je Follow le stream TCP de ce paquet : Clic Droit > Follow > TCP Stream
 
