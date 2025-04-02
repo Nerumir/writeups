@@ -12,11 +12,11 @@ Pour commencer, j'ouvre le fichier avec **Wireshark**. Je me doute que le protoc
 
 --> Je filtre avec smb2.cmd == 1 && smb2.nt_status == 0x00000000 pour trouver l'opération de session setup qui a réussi.
 
-![Filtrage](/data/filtre.png)
+![Filtrage](data/filtre.png)
 
 --> Un packet correspond c'est la trame 72074, j'observe que le user qui a réussi à se connecter est "hackbackzip"
 
-![Compte](/data/account.png)
+![Compte](data/account.png)
 
 > [!NOTE]
 > Mon but va être de retrouver le mot de passe de "hackbackzip", je fais quelques recherches et je déduis qu'il va falloir reconstruire le hash Net-NTLMv2 de cet utilisateur puis le crack. Je tourne vers quelques outils pour m'aider.
@@ -54,7 +54,7 @@ Bon format de Hash :
 
 --> Je crack le hash avec cette commande : hashcat -m 5600 hash.txt /usr/share/wordlists/rockyou.txt
 
-![Hashcat](/data/hash.png)
+![Hashcat](data/hash.png)
   
 
 J'obtiens le mot de passe "pike*****"
