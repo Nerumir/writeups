@@ -57,7 +57,7 @@ Bon format de Hash :
 ![Hashcat](data/hash.png)
   
 
-J'obtiens le mot de passe "pike*****"
+J'obtiens le mot de passe "pike-----"
 
 
---> Le flag est sous la forme swampCTF{<username>:<password>} donc le flag du chall est ***swampCTF{hackbackzip:pike*****}*** 
+--> Le flag est sous la forme swampCTF{<username>:<password>} donc le flag du chall est ***swampCTF{hackbackzip:pike-----}*** 
