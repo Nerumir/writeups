@@ -1,4 +1,4 @@
-# Party Time! Lv. 2 - 
+# Party Time! Lv. 2 - Quentin-AC
 
 Voici l'énoncé du challenge :
 > The party just ended, but people are hungry. Find the nearest fast food spot to see where everyone went!

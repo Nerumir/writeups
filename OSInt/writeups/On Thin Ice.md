@@ -1,4 +1,4 @@
-# On Thin Ice - 
+# On Thin Ice - Quentin-AC
 
 Voici l'énoncé du challenge :
 > I’ve been looking for well-rated ice-skating rinks, I wonder if there is one out there with decent reviews?

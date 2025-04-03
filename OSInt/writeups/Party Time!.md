@@ -1,4 +1,4 @@
-# Party Time ! - 
+# Party Time ! - Quentin-AC
 
 Le texte du challenge est le suivant :
 > This party house is known for its 3AM outings, but you've gotta work for the location if you want to come! Enter the GPS coordinates of the location!
