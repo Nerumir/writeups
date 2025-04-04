@@ -29,7 +29,7 @@ Il fonctionne avec un **XOR** entre le plaintext et la key
 key = plaintext XOR cipher
 ```
 
-On a aussi dans les dossiers l'ordre des messages (M1,M2,M3,M4,M5)
+> On a dans les dossiers l'ordre des messages (M1,M2,M3,M4,M5)
 
 --> Je fais un script python qui lit les messages chiffrés et déchiffrés de M1 à M5, calcule la clé avec l'opération juste au dessus et enregistre les clés en hex.
 > Je précise que le plaintext et le ciphertext sont ici sous forme binaire.
