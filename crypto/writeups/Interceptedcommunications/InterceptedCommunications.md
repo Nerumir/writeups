@@ -21,9 +21,9 @@ Au départ nous avons **plusieurs dossiers** avec dedans : Deux fichiers **texte
 cipher = plaintext XOR key
 ```
 
-Il fonctionne avec un xor entre le plaintext et la key 
+Il fonctionne avec un **XOR** entre le plaintext et la key 
 
--->  Donc si on connaît le plaintext et le cipher on peut retrouver la clé :
+-->  Donc si on connaît le plaintext et le cipher on peut retrouver la **clé** :
 
 ```yml
 key = plaintext XOR cipher
