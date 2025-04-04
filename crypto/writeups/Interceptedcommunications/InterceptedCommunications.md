@@ -1,6 +1,6 @@
 # Intercepted communications - dtss
 
-Au départ nous avons **plusieurs dossiers** avec dedans : Deux fichiers **textes** contenants des **représentations binaires**. L'un pour le **plaintext** et l'autre pour son **cipher**. Nous avons également un dernier message important, le message chiffré (Important_Message_Captured.txt) sans sa version déchiffré.
+Au départ nous avons **[plusieurs dossiers](data/CapturedComms.zip)** avec dedans : Deux fichiers **textes** contenants des **représentations binaires**. L'un pour le **plaintext** et l'autre pour son **cipher**. Nous avons également un dernier message important, le message chiffré (Important_Message_Captured.txt) sans sa version déchiffré.
 
 ![dossiers+message](data/files.png)
 
