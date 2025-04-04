@@ -4,7 +4,7 @@ Au départ nous avons **plusieurs dossiers** avec dedans : Deux fichiers **texte
 
 ![dossiers+message](data/files.png)
 
-**Et une consigne** : 
+Et une **Consigne** : 
 
 > "We were able to listen in on our oponnents for a while, and managed to capture the ciphertexts and plaintexts of their communication, but were eventually kicked out. I'll send you a dump of what we managed to get so far, but long story short, there are pairs of encrypted and decrypted communications. We have reason to believe they're not following otp-imal security practices, and the most valualbe communication should be happening any second now. I'll link the file below. Good luck."
 
