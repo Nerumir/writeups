@@ -89,5 +89,5 @@ for o in range(len(k) - len(c) + 1):
 Flag : ***swampCTF{Nev3r_r3Use_a_0TP}***
 
 > [!IMPORTANT]
-> Il me semblait important de laisse le flag en clair car toute la logique de ce challenge réside dans ce flag. Nous avons pu déchiffrer le message intercepté car deux messages avaient la même longueur et la même clé , L'algorithme de chiffrement OTP est sécurisé justement parce que la clé est normalement unique.
+> Il me semblait important de laisser le flag en clair, car toute la logique de ce challenge repose sur lui. Nous avons pu déchiffrer le message intercepté parce que deux messages avaient la même longueur et utilisaient la même clé. L'algorithme OTP est sécurisé justement parce que, en temps normal la clé n'est utilisée qu'une seule fois.
 
