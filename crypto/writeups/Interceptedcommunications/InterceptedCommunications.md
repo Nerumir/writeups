@@ -12,7 +12,6 @@ Au départ nous avons **plusieurs dossiers** avec dedans : Deux fichiers **texte
 
 > [!NOTE] 
 > Je ne connais pas le détail du chiffrement OTP et je me renseigne sur son fonctionnement : 
-
 > - La clé est aléatoire
 > - Elle a la même longueur que le message
 > - Cette clé est utilisée une seule fois ( One-Time ) 
