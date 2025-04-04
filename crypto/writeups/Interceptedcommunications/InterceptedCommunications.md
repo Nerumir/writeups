@@ -84,7 +84,7 @@ for o in range(len(k) - len(c) + 1):
 
 --> J'obtiens le message en clair et la clé :
 
-![flag+key](data/flag+key/png)
+![flag+key](data/flagkey.png)
 
 Flag : ***swampCTF{Nev3r_r3Use_a_0TP}***
 
