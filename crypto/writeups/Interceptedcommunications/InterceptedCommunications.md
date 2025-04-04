@@ -59,7 +59,7 @@ open("keyf.hex","w").write(k.hex())
 ```
 ![keyf](data/keyf.png)
 
---> Enfin, je fais un script qui teste toutes les **positions** possibles dans la **clé finale** pour peut être **déchiffrer** le **message** intercepté et donne la clé utilisée.
+--> Enfin, je fais un script qui teste toutes les **positions** possibles dans la **clé finale** pour peut être **déchiffrer** le **message** intercepté et donner la clé utilisée.
 
 ```python
 def b2b(b): 
