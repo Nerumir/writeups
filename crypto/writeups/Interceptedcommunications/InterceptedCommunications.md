@@ -23,7 +23,7 @@ cipher = plaintext XOR key
 
 Il fonctionne avec un **XOR** entre le **plaintext** et la **key** 
 
--->  Donc si on connaît le plaintext et le cipher on peut retrouver la **key** :
+-->  Donc si on connaît le **plaintext** et le **cipher** on peut retrouver la **key** :
 
 ```yml
 key = plaintext XOR cipher
