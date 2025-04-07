@@ -1,4 +1,4 @@
-# Baby Encryption- Nerumir
+# Baby Encryption - Nerumir
 
 - On a un message chiffré ainsi que le code qui a permis de le chiffrer.
 
