@@ -2,7 +2,7 @@
 
 - On nous donne un binaire appelé "binary" (original ça...). Je l'inspecte avec radare2 et je trouve une fonction `win`, donc je note l'adresse, je regarde un peu dedans, toujours avec radare2, et je vois qu'effectivement elle nous affiche le flag..
 
-![Analyse des symboles](data/symbols.png =250x)
+![Analyse des symboles](data/symbols.png)
 ![Désassemblage de la fonction win](data/win.png) 
 
 - J'execute le programme et je peux rentrer un argument, je tape donc un truc pour déclancher une overflow, je note le padding et puis je mets des patterns un peu différents pour distinguer les octets et voir comment est écrasé le pointer d'instruction (RIP en 64bits et EIP en 32bits, c'est IP = Instruction Pointer).
