@@ -11,5 +11,5 @@
 
 ![Flag](data/flag.webp) 
 
-> [!INFO]
+> [!TIP]
 > Parfois, l'analyse dynamique, bien que plus gourmande en ressource, nous permet d'avoir des informations plus facilement que par décortiquage du programme en analyse statique. Il est certains que le flag pouvait se retrouver par analyse statique mais ce n'était pas le but de ce challenge et la tâche aurait pu être plus fastidieuse. Aillez tout de même le bon reflexe d'excuter la commande `strings` sur le programme pour voir si il est possible d'obtenir le flag directement, notamment lorsqu'il est stocké en tant que chaîne de caractère "en dure" dans le programme.
