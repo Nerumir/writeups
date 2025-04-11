@@ -42,3 +42,6 @@ if __name__ == "__main__":
     flag = hexXor(keystream, '7d8273ceb459e4d4386df4e32e1aecc1aa7aaafda50cb982f6c62623cf6b29693d86b15457aa76ac7e2eef6cf814ae3a8d39c7')
     print('Flag : ', bytearray.fromhex(flag).decode())
 ```
+
+> [!TIP]
+> Toujours se renseigner sur les détails techniques des algorithmes utilisés et même des fonctions de certains modules externes potentiellement utilisés. Ne pas hésiter à poser cela calmement sur tableau blanc ou sur feuille.
