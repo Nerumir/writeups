@@ -22,8 +22,7 @@ Vous trouverez, triés par thème, des writeups effectués par moi et des amis �
 | Difficile | :star::star::star: | Concerne les challenges demandant une compréhension avancée des technologies impliquées et une expérience de terrain préalable. On va également y mettre les challenges chronophages et avec beaucoup d'étapes.  |
 | Folie furieuse | :skull::skull::skull::skull: | Concerne les challenges `0days` ou très fastidieux et demandant des connaissances poussées dans de nombreux domaines différents ou bien dont les astuces de résolution sont extrêmement dures à trouver voire absolument improbables. On peut également y classer des challenges "difficiles" mais qui ont connu extrêmement peu de résolutions lors de l'évènement CTF.  |
 
-
-**Liste des rédacteurs :**
+## Liste des rédacteurs :
 
 - *@Nerumir*
 - *@Yourame*
