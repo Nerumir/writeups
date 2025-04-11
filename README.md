@@ -1,6 +1,6 @@
 # Hackali - Write Ups
 
-![Hackali](logo.png) 
+![Hackali](hackali-logo.png) 
 
 Vous trouverez, triés par thème, des writeups effectués par moi et des amis à moi, tous membres de la team cybersécurité *@Hackali*, souvent dans le cadre d'évènements CTF !
 
