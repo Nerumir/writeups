@@ -2,7 +2,7 @@
 
 
 <p align="center">
-![Hackali](hackali-logo.png) 
+    <img width="460" height="300" src="https://github.com/Nerumir/writeups/blob/main/hackali-logo.png">
 </p>
 
 Vous trouverez, triés par thème, des writeups effectués par moi et des amis à moi, tous membres de la team cybersécurité *@Hackali*, souvent dans le cadre d'évènements CTF !
