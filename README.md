@@ -8,12 +8,12 @@
 Vous trouverez, triés par thème, des writeups effectués par moi et des amis à moi, tous membres de la team cybersécurité *@Hackali*, souvent dans le cadre d'évènements CTF !
 
 > [!TIP]
-> Dans chaque dossier thème, il y a un `README.md` listant tous les writeups présents, vous pouvez cliquer dessus pour le visionner. Cela permet de les accompagner d'une petite description. C'est fort utile pour avoir une idée rapide du sujet et des compétences traitées dans chaque writeups pour faciliter l'apprentissage de tout le monde !
+> Dans chaque dossier d'évènement, il y a un `README.md` listant tous les writeups présents, vous pouvez cliquer dessus pour le visionner. Cela permet de les accompagner d'une petite description. C'est fort utile pour avoir une idée rapide du sujet et des compétences traitées dans chaque writeups pour faciliter l'apprentissage de tout le monde !
 
 ## Classification de difficulté
 
 > [!NOTE]
-> Pour permettre au lecteur d'évaluer rapidement la difficulté d'un challenge et donc diriger sa lecture vers des writeups de la difficulté adaptée à son intérêt, nous avons mis en place un système de notation que vous verrez dans le `README.md` de chaque catégorie de challenges :
+> Pour permettre au lecteur d'évaluer rapidement la difficulté d'un challenge et donc diriger sa lecture vers des writeups de la difficulté adaptée à son intérêt, nous avons mis en place un système de notation que vous verrez dans le `README.md` de chaque dossier d'évènement :
 
 | Diffculté | Signalisation | Description |
 | ------------- | -------------- | -------------- |
